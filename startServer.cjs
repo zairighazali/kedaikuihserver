@@ -19,7 +19,7 @@ app.use(helmet());
 app.use(cors({
   origin: [
     process.env.FRONTEND_URL || "http://localhost:5173",
-    "http://localhost:4000",
+    "http://localhost:4000", "https://kedaikuih.vercel.app"
     // Add your deployed frontend URL here
   ],
   credentials: true,
